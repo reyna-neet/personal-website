@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#spiral{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 0;
+}
+
+#spiral-1{
+  background-color: #FFF0F0;
+  width: 100vh;
+  height: 100vh;
+}
+
+#spiral-2{
+  width: 61.80343vh;
+  height: 100vh;
+}
+
+#spiral-3{
+  background-color: #F0FFF0;
+  width: 61.80343vh;
+  height: 61.80343vh;
+}
+
+#spiral-4{
+  width: 61.80343vh;
+  height: 38.19665vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#spiral-5{
+  background-color:#f0f0ff;
+  width: 38.19665vh;
+  height: 38.19665vh;
+}
+
+#spiral-6{
+  width: 23.60684vh;
+  height: 38.19665vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#spiral-7{
+  background-color: #ffe2ff;
+  width: 23.60684vh;
+  height: 23.60684vh;
+}
+
+#spiral-8{
+  width: 23.60684vh;
+  height: 14.58984vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
